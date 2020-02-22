@@ -1,101 +1,356 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+
 	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="x-ua-compatible" content="IE=edge">
   <meta name="description" content ="приглашение в Польшу на 180 дней.">
 	<title>Агенство по трудоустройству</title>
-
-	<link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed|PT+Serif|Roboto:400,500&display=swap"
+    
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 	rel="stylesheet">
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/fonts.css">
-	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
-	<link rel="stylesheet" href="css/slick.css">
-	<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="build/css/all.css">
+		
+
 
 
 </head>
 
 <body>
-	
-	<header class="header">
-		<div class="header-top">
+
+       <header class="header">
+
+	<div class="burger">
+               	<div class="icon-menu"></div>
+               <div class="open wow ">
+               		<div class="icon-cross"></div>
+               	<div class="text">
+               		<nav class="open__menu">
+									<ul>
+										<li><a href="#about">услуги</a></li>
+										<li><a href="#steps">процедура</a></li>
+										<li><a href="#location">контакты</a></li>
+									</ul>
+								</nav>
+               	</div>
+               </div>
+               </div>
+
+         <div class="header-top">
+
+
+
 			<div class="conteiner">
+              
+
+
+
+
+
+
 				<a class="header-phone" href="tel:0639364520">0639364520</a>
-				<a class="header-email  data-fancybox data-src=" #modal href="javascript:;" class="btn btn-primary" href="">oparavitalii@gmail.com</a>
+				<a class="header-email" href="#form__href" >oparavitalii@gmail.com</a>
 		</div></div>
 		<div class=" header-center">
 					<div class="conteiner">
-						<div>
+						
 							<div class="header-inner">
 
 								<div class="headerlogo">
 									<a href="#">
-										<img src="pictures/logo.png" width="120px" height="50px">
+										<img src="build/pictures/logo.png" alt="logo">
 									</a>
 								</div>
 
 								<nav class="menu">
 									<ul>
-										<li><a href="#">о нас</a></li>
-										<li><a href="#">контакт</a></li>
-										<li><a href="#">помощь</a></li>
+										<li><a href="#about">услуги</a></li>
+										<li><a href="#steps">процедура</a></li>
+										<li><a href="#location">контакты</a></li>
 									</ul>
 								</nav>
 							</div>
 						</div>
-					</div>
-	</header>
-	<div class="slider">
-<div class="conteiner">
-	<div class="slider__inner">
-		<div class="slider__innner">
-
-				<div>Приглашения 180/360</div>
-				<div>Прозрачная процедура получения визы в Польшу</div>
-				<a href="#" class="btn">Оставить заявку </a>
-
-			</div>
-			<div class="slider__innner">
-
-					<div>Приглашения 180/360</div>
-					<div>Прозрачная процедура получения визы в Польшу</div>
-					<a href="#" class="btn">Оставить заявку </a>
-
 				</div>
-				<div class="slider__innner">
 
-						<div>Приглашения 180/360</div>
-						<div>Прозрачная процедура получения визы в Польшу</div>
-						<a href="#" class="btn">Оставить заявку </a>
+</header>
+					
 
-					</div>
-					</div>
-					</div>
-					</div>
-<section class="about">
-	<div class="about-top">наши услуги</div>
-	<div class="about-main">
-		<div class="about-id">
-		<div class="about-title">рабочая виза 180/360</div>
-			<div class="about-btn"><img src="pictures/im1.png";></div>
-			</div>
-			<div class="about-id">
-			<div class="about-title">сезонная виза 270/360</div>
-				<div class="about-btn"><img src="pictures/im2.png";></div>
+
+					
+				<div class="conteiner">
+						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+						        
+							  <ol class="carousel-indicators">
+							    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+							    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+							    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+							  </ol>
+							 <div class="carousel-inner ">
+						
+							    <div class="carousel-item active ">
+							      <div class="slider d-block w-100" >
+							
+							      	<div class="slider__inner-text">Приглашения 180/360</div>
+								<div class="slider__inner-text">Изготовление за 8-14 дней.</div>
+								<a href="#form__href" class="btn">Оставить заявку </a>
+							
+							
+							    </div></div>
+							    <div class="carousel-item ">
+							       <div class="slider2 d-block w-100" >
+							
+							      	<div class="slider__inner-text">Приглашения 270/360</div>
+								<div class="slider__inner-text">Изготовление за 14-20 дней.</div>
+								<a href="#form__href" class="btn">Оставить заявку </a>
+							
+							
+							    </div>
+							    </div>
+							    <div class="carousel-item ">
+							      <div class="slider3 d-block w-100" >
+							
+							      	<div class="slider__inner-text">Приглашения 360/360</div>
+								<div class="slider__inner-text">Изготовление за 2 месяца.</div>
+								<a href="#form__href" class="btn">Оставить заявку </a>
+							
+							
+							    </div>
+							    </div>
+							  </div>
+							  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+							    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							    <span class="sr-only">Previous</span>
+							  </a>
+							  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+							    <span class="carousel-control-next-icon" aria-hidden="false"></span>
+							    <span class="sr-only">Next</span>
+							  </a>
+							</div>
 				</div>
-				<div class="about-id">
-				<div class="about-title">рабочая виза 360/360</div>
-					<div class="about-btn"><img src="pictures/im3.png";></div>
+						
+					
+				
+<div class="about" id="about">  
+
+	<div class="conteiner">
+		<div class="about-top">наши услуги</div>
+		<div class="priceoff">
+			<div class="timer">Получите скидку до конца зимы 10%</div>
+			<div class="timer__inner"><script src="//megatimer.ru/get/06935bdeeb51e33fca29d09cb1ba3c27.js"></script></div>
+			<form class="form__timer">
+				<label >
+					Введите сумму заказа
+					<input class="timer__input" type="text">
+				</label>
+				<button class=" btn__timer" type="submit">Рассчитать скидку</button>
+				
+               <div class="resultat"></div>
+
+
+			</form>
+		
+
+
+		</div>
+		
+		<div class="about-main row d-flex justify-content-center">
+			<div class="about-id col col-sm-12 col-md-7 col-lg-5 col-xl-3">
+			<div class="about-title">рабочая виза 180/360</div>
+				<div class="about-btn"><img src="build/pictures/im1.png" alt="img"></div>
+				</div>
+				<div class="about-id col col-sm-12 col-md-7 col-lg-5 col-xl-3">
+				<div class="about-title">сезонная виза 270/360</div>
+					<div class="about-btn"><img src="build/pictures/im2.png" alt="img"></div>
 					</div>
+					<div class="about-id col col-sm-12 col-md-7 col-lg-5 col-xl-3">
+					<div class="about-title">рабочая виза 360/360</div>
+						<div class="about-btn"><img src="build/pictures/im3.png" alt="img"></div>
+						</div>
+             
+
+
+
+		</div>
+	</div>
 </div>
-</section>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="js/jquery.fancybox.min.js"></script>
-	<script src="js/slick.min.js">	</script>
-	<script src="js/main.js"></script>
+<div  class="steps " id="steps">
+	<div class="conteiner">
+	<div class="about-top">Как получить приглашение</div>
+	<div class="main_steps row d-flex justify-content-center" >
+	<div class="steps_item wow zoomIn col col-sm-12 col-md-7 col-lg-5 col-xl-3" data-wow-duration="1s" data-wow-delay="0.5s">
+			<div class="icon-number"></div>
+			<div class="steps_text">Заполнить заявку</div>
+		</div>	
+		<div class="steps_item wow zoomIn col col-sm-12 col-md-7 col-lg-5 col-xl-3" data-wow-duration="1s" data-wow-delay="1s">
+			<div class="icon-number2"></div>
+			<div class="steps_text">Отослать ксерокопии паспорта</div>
+		</div>	
+		<div class="steps_item wow zoomIn col col-sm-12 col-md-7 col-lg-5 col-xl-3" data-wow-duration="1s" data-wow-delay="1.5s">
+			<div class="icon-number3"></div>
+			<div class="steps_text">Забрать документы на почте</div>
+		</div>	
+		</div>
+
+
+
+
+
+	</div>
+</div>
+<div class="form conteiner" id="form__href">
+	<div class="conteiner">
+		<div class="send-top">Получить консультацию
+			
+		</div>
+		<div class="content-text">
+			Комплексный подход к вашему вопросу, своевременная  помощь  в получении рабочей визы.
+		</div>
+		
+
+	
+	</div>
+
+
+
+ <div class="form_box ">
+	<div class="conteiner">
+	<form id="form" >
+		<div class="form_box-inner">
+			<div class="form_box-left">
+				<label>
+					E-mail
+					<input type="text" id="mail" name="mail" placeholder="mailmail@gmail.com">
+				</label>
+				<label>
+					Контактный телефон
+					<input type="text" id="phone" name="phone" placeholder="+380 (99) 999-99-99">
+				</label>
+				
+				<label>
+					ФИО
+					<input class="" type="text" id="name" name="name" placeholder="Васильев Василий Василиевич">
+				</label>
+				<label>
+					Выбор услуги
+					<select name="select" id="select">
+						<option >Приглашение 180/360</option>
+						<option >Приглашение 270/360</option>
+						<option >Приглашение 360/360</option>
+						
+					</select>
+				</label>
+			</div>
+		
+		
+			<div  class="form_box-right">
+			<span class="span">Сообщение</span>
+			<p><textarea name="textarea" id="textarea" placeholder="Ваше сообщение"></textarea></p>
+			<button  type="submit" class="btn btnclick">отправить</button>
+			</div>
+			</div>
+	</form>
+	<div id="errorMess" class="errorMess wow" data-wow-duration="2s" data-wow-delay="5s" data-wow-iteration="infinite"></div>
+    </div>
+ </div>
+	</div>
+
+
+	<div class="conteiner "><div class="back__call">
+			
+				
+					<div class="fixed">
+						<div class="call_hover">
+							<div  class="call__show call__img"></div>
+						</div>
+						
+											
+						
+						
+						<form id="call__test" >
+										<div id="call__form">
+						<div id="call__form1">
+							<div class="call__close"></div>
+						</div>
+						<div class="call__form">
+							
+							<div>
+								<label class="call_label">
+									Контактный телефон<br/>
+									<input class="call__input" type="text" name="phone1" id="phone1" placeholder="+380 (99) 999-99-99">
+								</label>
+							</div>
+							
+								<div>
+									<button type="submit" class="btn click__phone">отправить</button>
+								</div>
+								
+										</div>
+									         </div>
+							</form>
+					</div>
+				
+		
+			</div>
+		</div>
+
+
+
+<div class="location" id="location">
+	<div class="conteiner">
+	<div class="location__title">Контакты</div>
+
+	<div class="location__inner">
+		<div class="location__left">
+		<div class="location__name">Адресс</div>
+		<div class="location__text">г.Александрия ул.Садовая 88 </div>
+		<div class="location__phone">Телефон</div>
+		<a class="phone__text" href="tel:0639364520">тел.0639364520</a>
+		<div class="lacation__mail" >email</div>
+		<a class="mail__text" href="#form__href">oparavitalii@gmail.com</a>
+		</div>
+		
+		
+	<div class="location__right-inner">
+			
+				<div class="location__right">карта</div>
+				
+				
+				<div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d84322.04405696866!2d33.00489224855357!3d48.66602109730517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d09d92b326f807%3A0xe117d4fe41dc0d9!2z0JDQu9C10LrRgdCw0L3QtNGA0LjRjywg0JrQuNGA0L7QstC-0LPRgNCw0LTRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgMjgwMDE!5e0!3m2!1sru!2sua!4v1581926314890!5m2!1sru!2sua" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
+
+				<div class="map1"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2635.6024920294903!2d33.12989841507904!3d48.65571922291041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40da7637a46dea2b%3A0xb1945b8e2bb659c2!2z0LLRg9C70LjRhtGPINCh0LDQtNC-0LLQsCwgODgsINCe0LvQtdC60YHQsNC90LTRgNGW0Y8sINCa0ZbRgNC-0LLQvtCz0YDQsNC00YHRjNC60LAg0L7QsdC70LDRgdGC0YwsIDI4MDAw!5e0!3m2!1sru!2sua!4v1582357391245!5m2!1sru!2sua" width="200" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div></div>
+			</div>
+	</div>
+
+
+
+
+	</div>
+
+</div>
+<div class="footer">
+	<div class="conteiner footer_inner">
+		<div class="copyright">&copy; 2020 Ework.com</div>
+		
+
+		<div class="social_icon">
+			<a class="fb" href="https://facebook.com/" ></a>
+			<a class="tw"href="https://twitter.com/" ></a>
+			<a class="google" href="https://google.com/" ></a>
+		</div>
+	</div>
+</div>
+<!--SCRIPTSSCRIPTS-SCRIPTSSCRIPTSSCRIPTS-->
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+	<script src="build/js/all.js"></script>
+
 </body>
 
 
